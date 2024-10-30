@@ -1,0 +1,11 @@
+@mixin text ($value:14px){
+    text-align: center;
+    font-size: $value;
+}
+
+@mixin avator(){
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+}
