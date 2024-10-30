@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary ">
       <div class="container-fluid">
-        <img src="@/assets/img/people.png" alt="" class="avator"><a class="navbar-brand" href="#">我的超级无敌简历</a>
+        <img src="@/assets/img/people.png" alt="" class="avator"><a class="navbar-brand" href="#">zyx</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" @click="showBiao">
           <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="搜索" aria-label="Search" v-model="inptValue">
-            <button class="btn btn-outline-success" type="button" @click="submit"><span>搜索</span></button>
+            <button class="btn btn-outline-success" type="button" @click="submit"><span>Search</span></button>
           </form>
         </div>
       </div>
